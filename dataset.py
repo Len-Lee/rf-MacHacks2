@@ -33,10 +33,10 @@ def generate_black_scholes_put_data(n):
 
 def main():
     """Generate 1000 Black Scholes put data points and save to 'bs-put-1k.csv'"""
+    print("Hello")
     xy = generate_black_scholes_put_data(1_000)
-    xy_df = pd.Dataframe(xy, columns = ["S", "K", "T", "r", "sigma", "value"])
-
-    xy_df.to_cvs("bs-put-1k.csv")
+    xy_df = pd.DataFrame(xy, columns = ["S", "K", "T", "r", "sigma", "value"])
+    #xy_df.to_cvs("bs-put-1k.csv")
 
 
 if __name__ == "__main__":
