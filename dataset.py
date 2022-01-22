@@ -14,7 +14,7 @@ sigma_bound = (0.05, 1.5)
 def generate_data(n):
     return np.random.rand(n,5)
 
-def generate_black_scholes_put_data(n);
+def generate_black_scholes_put_data(n):
     x = generate_data(n)
 
     S_delta = S_bound[1] - S_bound[0]
