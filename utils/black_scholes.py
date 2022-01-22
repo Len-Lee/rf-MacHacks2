@@ -4,6 +4,7 @@ import scipy.stats as si
 
 n = si.norm.pdf
 N = si.norm.cdf
+print(n, "and", N)
 
 
 # See Paul Wilmot Introduces Quantitative Finance pg 177 - 181 for derivations and context.
